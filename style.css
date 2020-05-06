@@ -61,6 +61,7 @@ body {
     border: 1px solid #4ca1af;
     border-radius: 5px;
     width: 50%;
+    outline: none;
 }
 
 .options:hover {
