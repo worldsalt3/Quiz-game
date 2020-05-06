@@ -72,7 +72,8 @@ function firstPage() {
             optionOne.addEventListener("click", function() {
                 optionOne.style.background = "rgb(248, 115, 115)";
                 optionOne.style.color = 'white';
-                optionTwo.disabled = true;
+                optionTwo.style.background = "rgb(105, 241, 105)";
+                optionTwo.style.color = 'white';
                 optionThree.disabled = true;  
                 optionFour.disabled = true;
             })
@@ -82,7 +83,8 @@ function firstPage() {
                 optionThree.style.background = "rgb(248, 115, 115)";
                 optionThree.style.color = 'white';
                 optionOne.disabled = true;
-                optionTwo.disabled = true;  
+                optionTwo.style.background = "rgb(105, 241, 105)";
+                optionTwo.style.color = 'white'; 
                 optionFour.disabled = true;
             })
         
@@ -91,7 +93,8 @@ function firstPage() {
                 optionFour.style.background = "rgb(248, 115, 115)";
                 optionFour.style.color = 'white';
                 optionOne.disabled = true;
-                optionTwo.disabled = true;  
+                optionTwo.style.background = "rgb(105, 241, 105)";
+                optionTwo.style.color = 'white';  
                 optionThree.disabled = true;
             })
             questionCount.innerText = "Question 1/5";
@@ -160,7 +163,8 @@ function secondPage() {
                 optionOne.style.background = "rgb(248, 115, 115)";
                 optionOne.style.color = 'white';
                 optionTwo.disabled = true;
-                optionThree.disabled = true;  
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white'; 
                 optionFour.disabled = true;
             })
 
@@ -169,7 +173,8 @@ function secondPage() {
                 optionTwo.style.background = "rgb(248, 115, 115)";
                 optionTwo.style.color = 'white';
                 optionOne.disabled = true;
-                optionThree.disabled = true;  
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white'; 
                 optionFour.disabled = true;
             })
         
@@ -179,7 +184,8 @@ function secondPage() {
                 optionFour.style.color = 'white';
                 optionOne.disabled = true;
                 optionTwo.disabled = true;  
-                optionThree.disabled = true;
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white'; 
             })
             questionCount.innerText = "Question 2/5";
             scoreCountTwo.innerText = `Score: ${score} /50`;
@@ -249,7 +255,8 @@ function thirdPage() {
                 optionOne.style.color = 'white';
                 optionTwo.disabled = true;
                 optionThree.disabled = true;  
-                optionFour.disabled = true;
+                optionFour.style.background = "rgb(105, 241, 105)";
+                optionFour.style.color = 'white';
             })
 
         } else if (question === optionTwo) {
@@ -258,7 +265,8 @@ function thirdPage() {
                 optionTwo.style.color = 'white';
                 optionOne.disabled = true;
                 optionThree.disabled = true;  
-                optionFour.disabled = true;
+                optionFour.style.background = "rgb(105, 241, 105)";
+                optionFour.style.color = 'white';
             })
         
         } else if (question === optionThree) {
@@ -267,7 +275,8 @@ function thirdPage() {
                 optionThree.style.color = 'white';
                 optionOne.disabled = true;
                 optionTwo.disabled = true;  
-                optionFour.disabled = true;
+                optionFour.style.background = "rgb(105, 241, 105)";
+                optionFour.style.color = 'white';
             })
 
             questionCount.innerText = "Question 3/5";
@@ -337,7 +346,8 @@ function forthPage() {
                 optionOne.style.background = "rgb(248, 115, 115)";
                 optionOne.style.color = 'white';
                 optionTwo.disabled = true;
-                optionThree.disabled = true;  
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white';  
                 optionFour.disabled = true;
             })
 
@@ -346,7 +356,8 @@ function forthPage() {
                 optionTwo.style.background = "rgb(248, 115, 115)";
                 optionTwo.style.color = 'white';
                 optionOne.disabled = true;
-                optionThree.disabled = true;  
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white';  
                 optionFour.disabled = true;
             })
         
@@ -356,7 +367,8 @@ function forthPage() {
                 optionFour.style.color = 'white';
                 optionOne.disabled = true;
                 optionTwo.disabled = true;  
-                optionThree.disabled = true;
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white';
             })
 
             questionCount.innerText = "Question 4/5";
@@ -426,7 +438,8 @@ function fifthPage() {
                 optionOne.style.background = "rgb(248, 115, 115)";
                 optionOne.style.color = 'white';
                 optionTwo.disabled = true;
-                optionThree.disabled = true;  
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white';  
                 optionFour.disabled = true;
             })
 
@@ -435,7 +448,8 @@ function fifthPage() {
                 optionTwo.style.background = "rgb(248, 115, 115)";
                 optionTwo.style.color = 'white';
                 optionOne.disabled = true;
-                optionThree.disabled = true;  
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white';   
                 optionFour.disabled = true;
             })
         
@@ -445,7 +459,8 @@ function fifthPage() {
                 optionFour.style.color = 'white';
                 optionOne.disabled = true;
                 optionTwo.disabled = true;  
-                optionThree.disabled = true;
+                optionThree.style.background = "rgb(105, 241, 105)";
+                optionThree.style.color = 'white'; 
             })
 
             questionCount.innerText = "Question 5/5";
