@@ -41,9 +41,6 @@ function firstPage() {
     }
 
    
-    questionCount.style.fontSize = "20px";
-    scoreCountOne.style.fontSize = "20px";
-
     headSection.appendChild(questionCount);
     headSection.appendChild(scoreCountOne);
 
